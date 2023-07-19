@@ -2,7 +2,6 @@
 
 
     .nav-container{
-        /* border: 2px solid red; */
         flex-direction: column;
         width: 100%;
         margin-top: 90px; 
@@ -19,7 +18,7 @@
         padding: 10px;
         height: auto;
         width: 100px;
-        margin-left: 60px;
+        margin-left: 20px;
     }
 
     .logo-text{
@@ -36,11 +35,17 @@
     }
 
     .menus{
-        margin: 20px auto 0;
+        margin: 10px 20px 0;
+        gap: 10px;
         flex-direction: column;
+    }
+    .menue-item-title{
+        margin-left: 30px;
+        gap: 10px;
     }
 
     .menue-icons-container{
+        gap: 10px;
         margin-left:40px ;
     }
 
@@ -48,6 +53,7 @@
 /* nav related styles ends here */
     
     .banner-section{
+
         width: 100%;
         margin-top: 100px;
         flex-direction: column-reverse;
@@ -57,33 +63,69 @@
     .banner-img{
         width: 100%;
         margin-top: 20px;  
-        margin-left: 100px;
+        margin-left: 30px;
         padding: 30px;
     }
 
     .banner-text{
         text-align: center;
-        width: 100%;  
+        width: 100%;
         margin-top: 30px;  
-        margin-left: 100px;
+        margin-left: 50px;
         padding: 50px;
     
     }
 
-    .banner-text, h1, h2{
+    .banner-text h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .banner-text h1{
+        font-size: 60px;
         text-align: center;
     }
 
     .banner-text, p{
         text-align: justify;
+        font-size: 15px;
+        margin-bottom: 5px;
     }
 
-    .btn-primary{
-        margin-left: 30px;
+    .btn-primary, .btn-extra{
+        display: inline;
+        padding: 15px 20px;
+        margin-left: 20px;
+        
     }
-
 
     /* banner section ends here */
 
+    .oline-games{
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 30px;
+        padding: 0;
+        gap: 20px;
+    }
 
+    .oline-games h1{
+        font-size: 30px;
+        text-align: center;
+        padding-right: 12px;
+    }
+    .oline-games p{
+        font-size: 15px;
+        text-align: center;
+        margin-left: 5px;
+
+    }
+    .cards-container{
+    grid-template-columns: 1fr;
+        
+
+    }
+    
+    
 }
