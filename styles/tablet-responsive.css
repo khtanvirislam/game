@@ -1,0 +1,23 @@
+@media screen and (min-width:426px) and (max-width:768px){
+    .nav-container{
+        flex-direction: column;
+        width: 70%;
+        padding: 0 80px;
+    }
+
+    .logo-contaier{
+        flex-direction: row;
+        width: 100%;
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+    .menu-items{
+        flex-direction:row;
+        width: 100%;
+    }
+
+    
+
+
+}
