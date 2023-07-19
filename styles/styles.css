@@ -8,7 +8,6 @@
 
 
 
-
 /* nav related styles start here*/
 
 .nav-container{
@@ -16,6 +15,7 @@
     align-items: center;
     justify-content: space-around;
     max-width: 1900px;
+    margin: 0 auto;
     height: 130px;
     padding: 0px 240px;
     
@@ -92,3 +92,5 @@
     font-size: 30px;
     padding-bottom: 5px;
 }
+
+/* nav styles ends here */
