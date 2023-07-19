@@ -1,26 +1,48 @@
 @media screen and (max-width:425px) {
+
+
     .nav-container{
+        border: 2px solid red;
         flex-direction: column;
         width: 100%;
-        margin-top: 80px; 
+        margin-top: 90px; 
         margin-left: 20px;
-        padding: 0;  
+        padding: 5px;  
     }
 
     .logo-contaier{
+        border: 2px solid black;
         width: 100%;
-        margin-left: 30px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .logo-img img{
+        object-fit: cover;
+        padding: 10px;
+        height: 50px;
+        width: 90%;
+        margin-left: 40px;
+
     }
 
     .menu-items{
+        margin-top: 20px;
+        margin-left: 20px;
         flex-direction: column;
         width: 100%;
     }
 
     .menus{
-    margin: 20px auto 0;
-    flex-direction: column;
+        margin: 20px auto 0;
+        flex-direction: column;
     }
+
+    .menue-icons-container{
+        margin-left:40px ;
+    }
+
+
 /* nav related styles ends here */
     
     .banner-section{
@@ -32,14 +54,18 @@
 
     .banner-img{
         width: 100%;
-        margin-top: 40px;  
-        margin-left: 100px
+        margin-top: 20px;  
+        margin-left: 100px;
+        padding: 30px;
     }
 
     .banner-text{
+        text-align: center;
         width: 100%;  
-        margin-top: 50px;  
-        margin-left: 100px
+        margin-top: 30px;  
+        margin-left: 100px;
+        padding: 50px;
+    
     }
 
     .banner-text, h1, h2{
@@ -48,8 +74,9 @@
 
     .banner-text, p{
         text-align: start;
-        padding-left: 30px;
+        padding-left: 50px;
     }
+
 
     /* banner section ends here */
 
