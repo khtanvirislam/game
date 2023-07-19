@@ -27,6 +27,15 @@
     text-align: center;
 }
 
+.shared-text-color{
+    font-size: 45px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 
 /* nav related styles start here*/
 
@@ -63,12 +72,6 @@
 
 }
 
-.logo-text-color{
-    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 .menu-items{
     display: flex;
@@ -226,4 +229,77 @@
 .cards img:hover{
 
     
+}
+
+/* online game section ends here */
+
+
+
+
+/* play instantly section starts here */
+
+.play-instantly{
+    max-width: 1900px;
+    height: auto;
+    margin: 100px auto 0px;
+    padding: 0 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play-instantly-text{
+    padding-left: 200px;
+}
+
+.play-instantly-title{
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.play-instantly-title p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+}
+
+.play-instantly-img img{
+    width: 630px;
+    height: 650px;
+    border-radius: 8px;
+}
+
+
+/* play instantly styles ends here. hover style is not redy */
+
+/* icon-button style starts here */
+
+.icon-button{
+    margin-top: 100px;
+    max-width: 1900px;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 80px;
+    gap: 20px;
+    
+}
+
+.icons-styles{
+    width: 262px;
+    height: 80px;
+    border: none;
+    border-radius: 50px;
+    background: lightgray;
+
+}
+
+.icon-titles{
+    text-align: end;
+    padding: 25px;
 }
