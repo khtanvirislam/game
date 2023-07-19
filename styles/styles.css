@@ -19,6 +19,14 @@
 }
 
 
+.shared-text-style{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #534C64;
+    text-align: center;
+}
+
+
 /* nav related styles start here*/
 
 .nav-container{
@@ -108,8 +116,7 @@
 
 /* main secion styles */
 
-/* banner section styles */
-
+/* banner section styles start here */
 
 .banner-section{
     max-width: 1900px;
@@ -169,3 +176,54 @@
 }
 
 /* banner section ends here */
+
+/* online game section styles starts here */
+
+.oline-games{
+    max-width: 1900px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 240px;
+}
+
+.online-games-title{
+    margin-top: 50px;
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.online-games-funny-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cards-container{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.cards{
+    border: 2px solid black;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+}
+
+.cards img{
+    width: 340px;
+    height: 400px;
+}
+
+.cards p{
+    text-align: start;
+}
+
+.cards img:hover{
+
+    
+}
