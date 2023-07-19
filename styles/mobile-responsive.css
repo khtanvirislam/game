@@ -1,0 +1,30 @@
+@media screen and (max-width:425px) {
+    .nav-container{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 100px;
+        padding: 0 10px;
+
+    }
+
+    .logo-contaier{
+        margin-left: 30px;
+        width: 100%;
+    }
+
+    .menu-items{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menus{
+    margin-top: 20px;
+    flex-direction: column;
+    }
+
+    .menue-icons-container{
+     
+
+    }
+    
+}

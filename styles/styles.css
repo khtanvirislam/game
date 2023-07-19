@@ -1,0 +1,94 @@
+/* shared styles */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+/* nav related styles start here*/
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1900px;
+    height: 130px;
+    padding: 0px 240px;
+    
+}
+
+.logo-contaier{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 50px;
+    gap: 15px;
+}
+
+.logo-img img{
+    object-fit: cover;
+    width: 80px;
+    height: 35px;
+}
+
+.logo-text{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.logo-text-color{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu-items{
+    display: flex;
+    align-items: center; 
+    width: 50%;
+    margin: 0 auto;
+    gap: 30px;
+
+}
+
+.menus{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.menus p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #3C354F;
+}
+
+.menue-icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menue-item-title{
+    border: none;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    font-size: 20px;
+    font-weight: 600;
+    color: #3C354F;
+    padding: 10px;
+    
+}
+
+.menues-icon{
+    margin-left: 30px;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
