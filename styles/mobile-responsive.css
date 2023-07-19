@@ -23,5 +23,35 @@
     }
 /* nav related styles ends here */
     
-    
+    .banner-section{
+        width: 100%;
+        margin-top: 100px;
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+    .banner-img{
+        width: 100%;
+        margin-top: 40px;  
+        margin-left: 100px
+    }
+
+    .banner-text{
+        width: 100%;  
+        margin-top: 50px;  
+        margin-left: 100px
+    }
+
+    .banner-text, h1, h2{
+        text-align: center;
+    }
+
+    .banner-text, p{
+        text-align: start;
+        padding-left: 30px;
+    }
+
+    /* banner section ends here */
+
+
 }
