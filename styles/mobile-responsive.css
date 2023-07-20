@@ -124,8 +124,68 @@
     .cards-container{
     grid-template-columns: 1fr;
         
+    }
+    /* online game section ends here */
 
+
+    /* play instantly section starts here */
+    .play-instantly{
+        padding: 0 ;
+        flex-direction: column;
     }
     
-    
+    .play-instantly-text{
+        padding: 10px;
+        margin-bottom: 20px;
+        
+    }
+
+    .play-instantly-img-{
+        margin-top: 40px;
+        width: 100%;
+        height: auto;
+        margin-left: 100px;
+        border-radius: 8px;
+    }
+
+    .mini-picture img{
+        width: 260px;
+        height: 280px;
+        position: relative;
+        margin-left: 50px;
+        padding-left: 20px;
+        bottom: 200px;
+        right: 50px;
+        border-radius: 8px;
+    }
+    /* play instantly styles ends here */
+
+    .icons-styles{
+        padding: 0;
+    }
+    .icon-contaier-1{
+        
+        width: 300px;
+        height: 300px;
+        border: 2px solid black;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .icon-container-2{
+        width: 300px;
+        height: 300px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .icons-styles{
+        width: 260px;
+        height: 70px;
+        padding-top: 10px;
+        padding-left: 20px;
+        border-radius: 50px;;
+        background: lightgray;
+        position: relative;
+    }
 }
