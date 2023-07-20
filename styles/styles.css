@@ -223,8 +223,8 @@ button a{
 
 
 .cards{
-    width: 370px;
-    height: 480px;
+    width: 350px;
+    height: 400px;
     gap: 20px;
 }
 
@@ -236,10 +236,11 @@ button a{
 
 .cards p{
     text-align: start;
-    font-size: 18px;
-    padding: 0 10px;
+    font-size: 15px;
+    padding-right: 20px;
 
 }
+
 
 /* online game section ends here */
 
@@ -252,7 +253,9 @@ button a{
     max-width: 1900px;
     height: auto;
     margin: 100px auto 0px;
-    padding: 0 240px;
+    padding-top: 150px;
+    padding-right: 240px;
+    padding-left: 240px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -271,7 +274,7 @@ button a{
 
 }
 
-.play-instantly-title p{
+.play-instantly-text p{
     color: #534C64;
     font-size: 20px;
     font-weight: 400;
