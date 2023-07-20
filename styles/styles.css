@@ -7,6 +7,11 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+button a{
+    text-decoration: none;
+    color: white;
+}
+
 
 .btn-primary{
     padding: 20px 40px;
@@ -40,6 +45,7 @@
     font-size: 30px;
     padding-bottom: 5px;
 }
+
 
 
 
@@ -235,8 +241,6 @@
 
 }
 
-
-
 /* online game section ends here */
 
 
@@ -256,6 +260,7 @@
 
 .play-instantly-text{
     padding-left: 200px;
+    padding-bottom: 280px;
 }
 
 .play-instantly-title{
@@ -273,19 +278,28 @@
     align-items: center;
 }
 
-.play-instantly-img img{
-    width: 630px;
+.play-instantly-img-{
+    width: 530px;
     height: 650px;
+    margin-left: 50px;
     border-radius: 8px;
 }
 
+
+.mini-picture img{
+    width: 310px;
+    height: 360px;
+    position: relative;
+    bottom: 280px;
+    right: 100px;
+}
 
 /* play instantly styles ends here. hover style is not redy */
 
 /* icon-button style starts here */
 
 .icon-button{
-    margin: 100px auto 0px;
+    margin: 0px auto;
     max-width: 1500px;
     min-height: 400px;
     display: flex;
