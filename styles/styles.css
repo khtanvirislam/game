@@ -206,59 +206,33 @@
     -webkit-text-fill-color: transparent;
 }
 
+
 .cards-container{
-    margin-top: 40px;
+    width: 1400;
+    margin-top: 50px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+
+.cards{
+    width: 370px;
+    height: 480px;
     gap: 20px;
- 
 }
-
-/* cards hoverlay trying */
-.cards-container .cards{
-    padding: 15px 10px;
-    margin-bottom: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-}
-
-.overlay{
-    position: ab;
-    top:0;
-    left:0;
-    right: 0;
-    bottom:0;  
-    opacity: 0;
-    transition: opacity 0.4s ease-in-out;
-    background: black;
-    cursor: pointer;
-}
-
-.cards-container .cards .content{
-    /* position: absolute; */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: red;
-    text-align: center;
-
-}
-
-.cards-container :hover .overlay{
-    opacity: 0.8;
-}
-/* cards hoverlay trying */
 
 .cards img{
-    width: 340px;
+    width: 330px;
     height: 400px;
+    
 }
 
 .cards p{
     text-align: start;
+    font-size: 18px;
+    padding: 0 10px;
+
 }
 
 
