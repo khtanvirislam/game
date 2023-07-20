@@ -35,6 +35,12 @@
     -webkit-text-fill-color: transparent;
 }
 
+.shared-icon{
+    margin-left: 30px;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
 
 
 /* nav related styles start here*/
@@ -109,11 +115,6 @@
     
 }
 
-.menues-icon{
-    margin-left: 30px;
-    font-size: 30px;
-    padding-bottom: 5px;
-}
 
 /* nav styles ends here */
 
@@ -332,4 +333,40 @@
     background-color: white;
     color: rgb(236, 9, 168);
     border: 1px solid rgb(236, 9, 168);
+}
+
+/* icon button styles ends here */
+
+/* footer styles starts here */
+
+    footer{
+        background-color: #0B0223;
+        max-width: 1900px;
+        min-height: 500px;
+        margin: 0 auto;
+    }
+
+    .game-container{
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .game-container h2{
+        color: white;
+        font-size: 45px;
+    }
+
+.footer-functions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer-functions h4{
+    margin-top: 50px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
 }
